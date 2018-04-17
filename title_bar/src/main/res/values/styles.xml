@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- titleBar 基础样式-->
+    <style name="TitleBar_Base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="tb_leftTextSize">16sp</item>
+        <item name="tb_leftTextColor">#333333</item>
+        <item name="tb_centerTextSize">17sp</item>
+        <item name="tb_centerTextColor">#333333</item>
+        <item name="tb_rightTextSize">16sp</item>
+        <item name="tb_rightTextColor">#333333</item>
+    </style>
+
+
+</resources>

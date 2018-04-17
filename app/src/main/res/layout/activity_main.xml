@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+
+    <com.tuo.titlebar.TitleBar
+        style="@style/TitleBar_Base"
+        android:layout_marginBottom="10dp"
+        app:tb_centerText="登录"
+        app:tb_leftText="返回"
+        app:tb_rightText="注册"
+        app:tb_rightTextColor="@color/colorPrimary" />
+
+    <com.tuo.titlebar.TitleBar
+        style="@style/TitleBar_Base"
+        android:layout_marginBottom="10dp"
+        app:tb_centerText="登录"
+        app:tb_centerTextColor="@color/colorAccent"
+        app:tb_leftTextDrawable="@drawable/back"
+        app:tb_rightText="注册"
+        app:tb_rightTextColor="@color/colorPrimary" />
+
+
+    <com.tuo.titlebar.TitleBar
+        style="@style/TitleBar_Base"
+        android:layout_marginBottom="10dp"
+        app:tb_centerText="登录"
+        app:tb_centerTextColor="@color/colorAccent"
+        app:tb_leftTextDrawable="@drawable/back"
+        app:tb_rightTextColor="@color/colorPrimary"
+        app:tb_rightTextDrawable="@drawable/person" />
+
+
+    <com.tuo.titlebar.TitleBar
+        style="@style/TitleBar_Base"
+        android:layout_marginBottom="10dp"
+        app:tb_centerText="登录"
+        app:tb_centerTextColor="@color/colorAccent"
+        app:tb_centerTextDrawable="@drawable/push"
+        app:tb_leftTextDrawable="@drawable/back"
+        app:tb_rightTextColor="@color/colorPrimary"
+        app:tb_rightTextDrawable="@drawable/person" />
+
+
+    <com.tuo.titlebar.TitleBar
+        style="@style/TitleBar_Base"
+        android:layout_marginBottom="10dp"
+        app:tb_centerTextColor="@color/colorAccent"
+        app:tb_centerTextDrawable="@drawable/push"
+        app:tb_leftTextDrawable="@drawable/back"
+        app:tb_rightTextColor="@color/colorPrimary"
+        app:tb_rightTextDrawable="@drawable/person" />
+
+
+    <com.tuo.titlebar.TitleBar
+        style="@style/TitleBar_Base"
+        android:layout_marginBottom="10dp"
+        app:tb_leftTextDrawable="@drawable/back"
+        app:tb_rightTextColor="@color/colorPrimary"
+        app:tb_rightTextDrawable="@drawable/person">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/right_tv"
+            android:layout_toRightOf="@+id/left_tv" />
+
+    </com.tuo.titlebar.TitleBar>
+
+</LinearLayout>

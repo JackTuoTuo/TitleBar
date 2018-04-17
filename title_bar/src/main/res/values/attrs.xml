@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义标题栏 -->
+    <declare-styleable name="TitleBar">
+        <!--左边文字 -->
+        <attr name="tb_leftText" format="string|reference" />
+        <!--左边文字颜色 -->
+        <attr name="tb_leftTextColor" format="color|reference" />
+        <!--左边文字大小 -->
+        <attr name="tb_leftTextSize" format="dimension|reference" />
+        <!--左边图片 -->
+        <attr name="tb_leftTextDrawable" format="reference" />
+        <!--左边图片距离左边框的距离 -->
+        <attr name="tb_left_drawable_padding" format="dimension|reference" />
+
+        <!--中间文字 -->
+        <attr name="tb_centerText" format="string|reference" />
+        <!--中间文字颜色 -->
+        <attr name="tb_centerTextColor" format="color|reference" />
+        <!--中间文字大小 -->
+        <attr name="tb_centerTextSize" format="dimension|reference" />
+        <!--中间图片 -->
+        <attr name="tb_centerTextDrawable" format="reference" />
+
+        <!--右边文字 -->
+        <attr name="tb_rightText" format="string|reference" />
+        <!--右边文字颜色 -->
+        <attr name="tb_rightTextColor" format="color|reference" />
+        <!--右边文字大小 -->
+        <attr name="tb_rightTextSize" format="dimension|reference" />
+        <!--右边图片 -->
+        <attr name="tb_rightTextDrawable" format="reference" />
+        <!--右边图片距离右边框的距离 -->
+        <attr name="tb_right_drawable_padding" format="dimension|reference" />
+
+
+        <!--是否含有底部线条 默认无 -->
+        <attr name="tb_has_bottom_line" format="boolean" />
+
+    </declare-styleable>
+</resources>
