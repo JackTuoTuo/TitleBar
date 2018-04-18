@@ -45,7 +45,7 @@ publish {
     artifactId = 'titlebar'
 
     //版本号
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
 
     //描述
     desc = 'a custom View of the activity or fragment Caption'
