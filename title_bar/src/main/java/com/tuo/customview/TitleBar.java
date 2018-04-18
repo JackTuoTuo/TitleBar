@@ -1,4 +1,4 @@
-package com.tuo.titlebar;
+package com.tuo.customview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
