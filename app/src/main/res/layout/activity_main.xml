@@ -7,7 +7,7 @@
     android:paddingTop="10dp">
 
 
-    <com.tuo.customview.titlebar.TitleBar
+    <com.tuo.TitleBar
         style="@style/TitleBar_Base"
         android:layout_marginBottom="10dp"
         app:tb_centerText="登录"
@@ -15,7 +15,7 @@
         app:tb_rightText="注册"
         app:tb_rightTextColor="@color/colorPrimary" />
 
-    <com.tuo.customview.titlebar.TitleBar
+    <com.tuo.TitleBar
         style="@style/TitleBar_Base"
         android:layout_marginBottom="10dp"
         app:tb_centerText="登录"
@@ -25,7 +25,7 @@
         app:tb_rightTextColor="@color/colorPrimary" />
 
 
-    <com.tuo.customview.titlebar.TitleBar
+    <com.tuo.TitleBar
         style="@style/TitleBar_Base"
         android:layout_marginBottom="10dp"
         app:tb_centerText="登录"
@@ -35,7 +35,7 @@
         app:tb_rightTextDrawable="@drawable/person" />
 
 
-    <com.tuo.customview.titlebar.TitleBar
+    <com.tuo.TitleBar
         style="@style/TitleBar_Base"
         android:layout_marginBottom="10dp"
         app:tb_centerText="登录"
@@ -46,7 +46,7 @@
         app:tb_rightTextDrawable="@drawable/person" />
 
 
-    <com.tuo.customview.titlebar.TitleBar
+    <com.tuo.TitleBar
         style="@style/TitleBar_Base"
         android:layout_marginBottom="10dp"
         app:tb_centerTextColor="@color/colorAccent"
@@ -56,7 +56,7 @@
         app:tb_rightTextDrawable="@drawable/person" />
 
 
-    <com.tuo.customview.titlebar.TitleBar
+    <com.tuo.TitleBar
         style="@style/TitleBar_Base"
         android:layout_marginBottom="10dp"
         app:tb_leftTextDrawable="@drawable/back"
@@ -69,6 +69,6 @@
             android:layout_toLeftOf="@+id/right_tv"
             android:layout_toRightOf="@+id/left_tv" />
 
-    </com.tuo.customview.titlebar.TitleBar>
+    </com.tuo.TitleBar>
 
 </LinearLayout>

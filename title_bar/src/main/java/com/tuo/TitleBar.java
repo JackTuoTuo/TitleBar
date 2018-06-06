@@ -1,4 +1,4 @@
-package com.tuo.customview.titlebar;
+package com.tuo;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.tuo.customview.R;
 
 /**
- * @describe activity or fragment 标题栏 进行统一多样式封装
+ * 描述：activity or fragment 标题栏 进行统一多样式封装
  * 作者：Tuo on 2018/4/17 10:57
  * 邮箱：839539179@qq.com
  */
