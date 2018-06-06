@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -45,7 +45,7 @@ publish {
     artifactId = 'titlebar'
 
     //版本号
-    publishVersion = '1.0.4'
+    publishVersion = '1.0.5'
 
     //描述
     desc = 'a custom View of the activity or fragment Caption'
@@ -55,4 +55,4 @@ publish {
 }
 
 // gradle clean build bintrayUpload -PbintrayUser=jacktuotuo -PbintrayKey=key -PdryRun=false
-// 最终引用路径 compile 'com.jacktuotuo.customview:titlebar:1.0.3
+// 最终引用路径 compile 'com.jacktuotuo.customview:titlebar:1.0.5

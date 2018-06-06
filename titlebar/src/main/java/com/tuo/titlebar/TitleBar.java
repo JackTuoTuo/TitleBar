@@ -12,8 +12,6 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.tuo.customview.R;
-
 /**
  * 描述：activity or fragment 标题栏 进行统一多样式封装
  * 作者：Tuo on 2018/4/17 10:57
@@ -104,14 +102,14 @@ public class TitleBar extends RelativeLayout {
      * 监听事件，因为ButterKnife在library中R2.id不等于R.id
      */
     private void initListener() {
-        leftTv.setOnClickListener(new View.OnClickListener() {
+        leftTv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mOnTitleBarListener != null)
                     mOnTitleBarListener.onLeftClick(v);
             }
         });
-        rightTv.setOnClickListener(new View.OnClickListener() {
+        rightTv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mOnTitleBarListener != null)
