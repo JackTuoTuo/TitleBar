@@ -1,4 +1,4 @@
-package com.tuo.customview;
+package com.tuo.customview.titlebar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.tuo.customview.R;
 
 /**
  * @describe activity or fragment 标题栏 进行统一多样式封装
