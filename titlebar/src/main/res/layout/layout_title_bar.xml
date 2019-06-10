@@ -7,13 +7,13 @@
         android:id="@+id/left_tv"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:background="?android:attr/selectableItemBackground"
         android:drawablePadding="4dp"
-        android:gravity="center_vertical|left"
+        android:gravity="center_vertical|start"
         android:minWidth="40dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
         android:singleLine="true"
         android:textColor="@android:color/white"
         android:textSize="16sp" />
@@ -35,12 +35,12 @@
         android:id="@+id/right_tv"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:background="?android:attr/selectableItemBackground"
-        android:gravity="center_vertical|right"
+        android:gravity="center_vertical|end"
         android:minWidth="40dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="15dp"
         android:singleLine="true"
         android:text=""
         android:textColor="@android:color/white"
@@ -50,17 +50,17 @@
         android:id="@+id/tv_red_dot"
         android:layout_width="9dp"
         android:layout_height="9dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="8dp"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
         android:background="#F44336"
         android:visibility="gone" />
 
     <View
         android:id="@+id/bottom_line"
         android:layout_width="match_parent"
-        android:layout_height="0.6dp"
+        android:layout_height="0.5dp"
         android:layout_alignParentBottom="true"
-        android:background="#E4E4E4" />
+        android:background="#DDDDDD" />
 
 </merge>

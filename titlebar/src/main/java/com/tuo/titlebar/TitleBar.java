@@ -1,5 +1,7 @@
 package com.tuo.titlebar;
 
+import android.app.Activity;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -105,8 +107,13 @@ public class TitleBar extends RelativeLayout {
         leftTv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (mOnTitleBarListener != null)
+                if (mOnTitleBarListener != null) {
                     mOnTitleBarListener.onLeftClick(v);
+                } else {
+                    if (getContext() instanceof Activity) {
+                        ((Activity) getContext()).finish();
+                    }
+                }
             }
         });
         rightTv.setOnClickListener(new OnClickListener() {
